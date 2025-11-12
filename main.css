@@ -22,6 +22,7 @@ p{
 .gradient-circle {
     color: #af4345;
     text-decoration: underline;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     width: 200px;
     height: 200px;
     border-radius: 50%; 
@@ -30,6 +31,25 @@ p{
     justify-content: center;
     align-items: center;
     transform: translate(-9%, 85%);
+    background-image: radial-gradient(
+        circle,
+        #26a69a,
+        #00695c 
+    );
+}
+
+.gradient-circle-2{
+    color: #af4345;
+    text-decoration: underline;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-9%, 222%);
     background-image: radial-gradient(
         circle,
         #26a69a,
