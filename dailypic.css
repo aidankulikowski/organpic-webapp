@@ -13,3 +13,13 @@ h1{
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #00695c;
 }
+
+img{
+    width: 500px;
+    height: auto;
+    transform: translateX(300px);
+}
+
+a{
+    transform: translateY(100%);
+}
